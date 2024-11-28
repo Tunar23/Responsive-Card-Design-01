@@ -1,0 +1,158 @@
+/*Extra Small & Small screen*/
+@media (min-width: 330px) and (max-width: 576px){
+    section{
+     .container{
+
+         .section-h{
+             h2{
+                 font-size: 26px;
+                 font-weight: 500;
+             }
+
+             p{
+                font-size: 14px;
+                font-weight: 500;
+             }
+         }
+
+         .team-box{
+
+
+            .member-info{
+
+                h3{
+                    font-size: 17px;
+                    font-weight: 500;
+                }
+
+                h5{
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+            }
+         }
+     }
+
+    }
+
+    @media (min-width: 400px) and (max-width: 576px){
+        section{
+
+            .container{
+
+                .section-h{
+
+                    h2{
+                        font-size: 28px;
+                        font-weight: 400;
+                    }
+                    
+                    p{
+                        font-size: 15px;
+                        font-weight: 400;
+                    }
+
+                }
+
+                .team-box{
+
+                    .member-image{
+                        height: 490px;
+
+                        img{
+                            height: 100%;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*Small & Medium screen*/
+@media (min-width: 576px) and (max-width: 768px){
+    section{
+
+        .container{
+
+            .section-h{
+
+                h2{
+                    font-size: 28px;
+                    font-weight: 400;
+                }
+
+                p{
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+            }
+
+            .team-box{
+
+                .member-image{
+                    height: 350px;
+
+                    img{
+                        height: 100%;
+                    }
+                }
+
+                .member-info{
+
+                    h3{
+                        font-size: 15px;
+                    }
+
+                    h5{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*Medium & Extra Large screen*/
+@media (min-width: 768px) and (max-width: 1200px){
+    section{
+
+        .container{
+
+            .section-h{
+                h2{
+                    font-size: 35px;
+                    font-weight: 500;
+                }
+
+                p{
+                    font-size: 17px;
+                    font-weight: 500;
+                }
+            }
+
+            .team-box{
+                .member-image{
+                    height: 360px;
+
+                    img{
+                        height: 100%;
+                    }
+                }
+
+                .member-info{
+                    h3{
+                        font-size: 17px;
+                        font-weight: 500;
+                    }
+
+                    h5{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
